@@ -1,0 +1,21 @@
+# 
+# West.yml
+# 
+# Top level west manifest
+#
+#
+manifest:
+  remotes:
+    - name: main_proj
+      url-base: https://github.com/Megawatt
+
+  projects:
+    - name: hexdump
+      remote: main_proj
+      repo-path: hexdump
+      path: hexdump
+
+  self:
+    path: westtest
+
+  
