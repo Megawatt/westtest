@@ -4,6 +4,7 @@
 # Top level west manifest
 #
 #
+#
 manifest:
   remotes:
     - name: main_proj
